@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.ibs.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ibs.refmap.json",
+  "mixins": [
+    "BlockBehaviourMixin",
+    "BlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
